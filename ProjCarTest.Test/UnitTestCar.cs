@@ -75,7 +75,8 @@ namespace ProjCarTest.Test
             };
 
             // Use a clean instance of the context to run the test
-            using (var context = new ProjCarTestApiContext(options))
+            using (
+                var context = new ProjCarTestApiContext(options))
             {
                 CarsController carsController = new CarsController(context);
                 await carsController.PostCar(car);

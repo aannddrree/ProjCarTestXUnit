@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjCarTest.Api", "ProjCarTest.Api\ProjCarTest.Api.csproj", "{B7E6F031-5F58-410A-8818-246DB084526C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjCarTest.Api", "ProjCarTest.Api\ProjCarTest.Api.csproj", "{B7E6F031-5F58-410A-8818-246DB084526C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjCarTest.Test", "ProjCarTest.Test\ProjCarTest.Test.csproj", "{46E46D74-950C-44F6-9DA0-CB4F522A8E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjCarTest.Test", "ProjCarTest.Test\ProjCarTest.Test.csproj", "{46E46D74-950C-44F6-9DA0-CB4F522A8E76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjCarMongo.Api", "ProjCarMongo.Api\ProjCarMongo.Api.csproj", "{FEBB4100-B5CA-4836-A577-EA42220DEA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjCarMongo.Test", "ProjCarMongo.Test\ProjCarMongo.Test.csproj", "{0414C921-C727-4DA5-B38C-B7D402D89C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{46E46D74-950C-44F6-9DA0-CB4F522A8E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E46D74-950C-44F6-9DA0-CB4F522A8E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E46D74-950C-44F6-9DA0-CB4F522A8E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBB4100-B5CA-4836-A577-EA42220DEA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBB4100-B5CA-4836-A577-EA42220DEA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBB4100-B5CA-4836-A577-EA42220DEA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBB4100-B5CA-4836-A577-EA42220DEA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0414C921-C727-4DA5-B38C-B7D402D89C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0414C921-C727-4DA5-B38C-B7D402D89C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0414C921-C727-4DA5-B38C-B7D402D89C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0414C921-C727-4DA5-B38C-B7D402D89C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
